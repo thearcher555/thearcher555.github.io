@@ -1,9 +1,37 @@
 
 
+
 .header 
 {
-    background: gray;
-    border-style: 4x solid hotpink;
+    /*background: ; */
+    background-image: linear-gradient(to bottom right ,#2a6f2a, #227722, #1b7e1b);
+    height: 80px;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding: 0;
+}
+
+.title
+{
+    font-size: 18px;
+    padding-top: 25px;
+    padding-left: 1%;
+    color: black;
+}
+
+body,html{
+    height: 100%;
+
+}
+
+.bg {
+
+    background-image: url('41212.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 
 
