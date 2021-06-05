@@ -36,6 +36,7 @@
 
 }
 
+
 .generaltext {
 font-family: 'Open Sans', sans-serif;
  font-weight: 300;
@@ -73,6 +74,8 @@ font-family: 'Open Sans', sans-serif;
     position: absolute;
     padding-top:4px;
     padding-left: 15px;
+    top:0;
+    left: 0;
 }
 
 
