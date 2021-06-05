@@ -4,7 +4,7 @@
     margin: 0;
     position: absolute;
     top: 0;
-    left:0;
+    left: 0;
 }
 
 #logowrapper {
@@ -58,7 +58,7 @@
 
 .header 
 {
-    /*background: ; */
+    
     background-image: linear-gradient(to bottom right ,#2a6f2a, #227722, #1b7e1b);
     height: 80px;
     width: 100%;
@@ -86,17 +86,21 @@
 }
 
 body,html{
-    height: 100%;
+    height: 99%;
 
 }
 
 .bg {
-
-    background-image: url('41212.jpg');
-    height: 95%;
+    background-image: url('32714.jpg');
+    filter: blur(3px);
+   -webkit-filter: blur(3px);
+    position: absolute;
+    padding-bottom: 0px;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
     background-position: center;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: cover;
 }
-
-
