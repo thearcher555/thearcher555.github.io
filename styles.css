@@ -1,137 +1,37 @@
-#headerwrapper
-{
+#background1 {
+    position:fixed;
+    background-image: url("Resources/background1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
     width: 100%;
-    margin: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-#logowrapper {
-    width: 5%;
-    margin: 0;
-    float: left;
-}
-
-#logodiv
-{
-    width: 2.5%;
-    margin: 0;
-    float: left;
-}
-
-#titlediv
-{
-    width: 2.5%;
-    margin: 0;
-    float: right;
-    padding-right: .5%;
-}
-
-#demodiv
-{
-    width: 3%;
-    margin: 0;
-    float: right;
-    padding-right: 10%;
-    padding-top: 20px;
-}
-
-#aboutdiv
-{
-    width: 3%;
-    margin: 0;
-    float: right;
-    padding-right: 5%;
-    padding-top: 20px;
-}
-
-#footerwrapper
-{
-    width: 100%;
-    height: 80px;
-    background: gray;
-    position: absolute;
-    bottom: 0;
     left:0;
+    top:0;
+
 }
 
-.header 
-{
-    
-    background-image: linear-gradient(to bottom right ,#2a6f2a, #227722, #1b7e1b);
-    height: 80px;
-    width: 100%;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding: 0;
+.header1 {
+    position: relative;
 }
 
-.logo
-{
-    padding-top: 10px;
-    padding-left: 10px;
-    height: 60px;
-    width: 60px;
-    margin: 0;
+.generaltext {
+    font-family: 'Open Sans', sans-serif;
+ font-weight: 300;
+ color: white;
+ font-size: 45px;
 }
 
-.title
-{
-    font-size: 18px;
-    padding-top: 20px;
-    text-shadow: -1px -1px 0px pink, -1px -1px 10px black;
-    font-family: "Optima", "Arial", sans-serif; 
-    color: black;
+h1 {
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 120px;
 }
 
 body,html{
-    height: 99%;
-
+    margin:0;
+    padding: 0;
 }
 
-.bg {
-    background-image: url('32714.jpg');
-    filter: blur(3px);
-   -webkit-filter: blur(3px);
-    position: absolute;
-    padding-bottom: 0px;
-    top:0;
-    left:0;
-    width:100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.textbox
-{
-    position: absolute; 
-    width: 40%;
-    height: 20%;
-    top:40%;
-    left:30%;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-}
-
-.transparent
-{
-    height:100%;
-    width:100%;
-    background-color: black;
-    opacity: 40%;
-    position: absolute;
-}
-
-.textboxheader
-{
-    font-family: "Optima", "Arial", sans-serif; 
-    font-size: 26px;
-    color: whitesmoke;
-    padding-left: 60px;
-    padding-top:15px;
-
-}
