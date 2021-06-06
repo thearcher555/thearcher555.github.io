@@ -78,7 +78,9 @@ font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-size: 16px;
     float:left;
-    padding-left: 68px;
+    position: absolute;
+    left:17%;
+    padding-left:10px;
     padding-top: 4px;
 }
 
@@ -88,9 +90,81 @@ font-family: 'Open Sans', sans-serif;
     width:42px;
     position: absolute;
     padding-top:4px;
-    padding-left: 15px;
+    padding-left: 0px;
     top:0;
-    left: 0;
+    left: 15%;
+}
+
+#about
+{
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    float:left;
+    position: absolute;
+    left:70%;
+    padding-left:10px;
+    padding-top: 4px;
+}
+
+#demo
+{
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    float:left;
+    position: absolute;
+    left:65%;
+    padding-left:10px;
+    padding-top: 4px;
+}
+
+#contactus
+{
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    float:left;
+    position: absolute;
+    left:75%;
+    padding-left:10px;
+    padding-top: 4px; 
+}
+
+#github
+{
+    float:left;
+    position: absolute;
+    left:82%;
+    padding-left:10px;
+    padding-top: 4px; 
+    height: 36px;
+    width:36px;
+}
+
+#twitter
+{
+    float:left;
+    position: absolute;
+    left:85%;
+    padding-left:10px;
+    padding-top: 8px; 
+    height: 30px;
+    width:30px;
+}
+
+#discord
+{
+    float:left;
+    position: absolute;
+    left:88%;
+    padding-left:6px;
+    padding-top: 4px; 
+    height: 36px;
+    width:36px;
 }
 
 
@@ -141,4 +215,5 @@ font-family: 'Open Sans', sans-serif;
     top:5%;
     justify-content: center;
 }
+
 
