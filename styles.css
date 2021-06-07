@@ -14,7 +14,8 @@
 #background2
 {
    position:absolute;
-    background-color: white;
+   background: rgb(225,159,251);
+background: linear-gradient(0deg, rgba(225,159,251,1) 0%, rgba(254,211,242,1) 100%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,7 +28,8 @@
 #background3
 {
    position:absolute;
-    background-color: #f0f0f0;
+   background: rgb(135,152,222);
+background: linear-gradient(0deg, rgba(135,152,222,1) 0%, rgba(225,159,251,1) 100%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,7 +42,8 @@
 #background4
 {
    position:absolute;
-    background-color: pink;
+   background: rgb(58,69,75);
+   background: linear-gradient(0deg, rgba(58,69,75,1) 0%, rgba(135,152,222,1) 100%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,6 +51,25 @@
     height: 60%;
     top:205%;
    
+}
+
+#footer
+{
+    position:absolute;
+    background-color: #2e3336;
+    width: 100%;
+    height:10%;
+    top: 265.75%;
+}
+
+#footermargin
+{
+    position:absolute;
+    background: rgb(252,110,242);
+    background: linear-gradient(90deg, rgba(252,110,242,1) 0%, rgba(59,96,250,1) 100%);
+    width: 100%;
+    height:.75%;
+    top: 265%;
 }
 
 
@@ -84,23 +106,11 @@ font-family: 'Open Sans', sans-serif;
 }
 
 
-#logotext
-{
-    font-family: 'Archivo', sans-serif;
-    color: white;
-    font-weight: 500;
-    font-size: 16px;
-    float:left;
-    position: absolute;
-    left:17%;
-    padding-left:10px;
-    padding-top: 4px;
-}
 
 #logo
 {
-    height: 40px;
-    width:40px;
+    height:40px;
+    width:200px;
     position: absolute;
     padding-top:4px;
     padding-left: 0px;
@@ -211,8 +221,8 @@ body,html{
 
 #lock
 {
-    padding-top: 0%;
-    padding-left: 55%;
+    padding-top: 3%;
+    padding-left: 66%;
 }
 
 .subtitle{
@@ -239,6 +249,11 @@ font-family: 'Open Sans', sans-serif;
     left: 10%;
     top:5%;
     justify-content: center;
+}
+
+#conclusion
+{
+    margin:0;
 }
 
 
